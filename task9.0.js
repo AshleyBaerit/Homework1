@@ -1,10 +1,10 @@
-var user = {
+ let user = {
   name: "Angel",
   age: 23,
   isAdmin: true
 };
 
-user.cityOfResidence = "New York";
+user['city of residence']= "New York";
 user.age = 30;
 delete user["city of residence"];
 

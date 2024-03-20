@@ -1,7 +1,4 @@
-let first = 10;
-let second = 2;
+let a = '2';
+let b = '3';
 
-alert(first+second);
-alert(first-second);
-alert(first/second);
-alert(first*second);
+alert(+a + +b);
